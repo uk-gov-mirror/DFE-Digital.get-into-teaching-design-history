@@ -1,13 +1,13 @@
 ---
 layout: collection
-title: "A design history for your GOV.UK service"
-description: "Document and share design decisions. Create a permanent record of how your service has developed over time."
+title: "Get Into Teaching Design History"
+description: "A history of the designs for the Get into teaching website."
 pagination:
   data: collections.all
   reverse: true
   size: 50
 posts:
-  title: Getting started
+  title: Posts
 eleventyComputed:
   eleventyNavigation:
     key: home
