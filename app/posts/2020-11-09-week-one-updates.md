@@ -24,8 +24,8 @@ Events sub pages returned all upcoming events on one page, leading to huge page 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
   items: [{
-      text: "Feedbak banner",
-      img: { src: "01-feedbak-banner.jpg" }
+      text: "Feedback banner",
+      img: { src: "01-feedback-banner.jpg" }
     }, {
       text: "Homepage box ordering",
       img: { src: "02-homepage-box-ordering.jpg" }
