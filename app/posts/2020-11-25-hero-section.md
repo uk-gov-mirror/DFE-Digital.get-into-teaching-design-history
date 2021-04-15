@@ -4,7 +4,7 @@ description:
 date: 2020-11-25
 ---
 
-Following user feedback that the page titles could be clearer we changed the style used on both the homepage and content pages. 
+Following user feedback that the page titles could be clearer we changed the style used on both the homepage and content pages.
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
