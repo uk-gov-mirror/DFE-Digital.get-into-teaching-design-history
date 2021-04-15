@@ -45,6 +45,8 @@ module.exports = function (eleventyConfig) {
   // Enable data deep merge
   eleventyConfig.setDataDeepMerge(true);
 
+  eleventyConfig.pathPrefix = '/get-into-teaching-design-history/';
+
   // Config
   return {
     dataTemplateEngine: 'njk',
@@ -57,7 +59,6 @@ module.exports = function (eleventyConfig) {
       includes: '_components'
     },
     templateFormats: ['njk', 'md'],
-    passthroughFileCopy: true,
-    pathPrefix: '/get-into-teaching-design-history/'
+    passthroughFileCopy: true
   };
 };
