@@ -57,6 +57,7 @@ module.exports = function (eleventyConfig) {
       includes: '_components'
     },
     templateFormats: ['njk', 'md'],
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
+    pathPrefix: '/get-into-teaching-design-history/'
   };
 };
